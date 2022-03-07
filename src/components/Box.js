@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Box = (props) => {
   const { title, btnClass, btnTitle, price, feature, revenue } = props;
@@ -18,27 +18,28 @@ const Box = (props) => {
               return (
                 <li
                   style={{
-                    margin: "10px 0",
-                    display: "flex",
-                    gap: "10px",
-                    alignItems: "flex-start",
+                    margin: '10px 0',
+                    display: 'flex',
+                    gap: '10px',
+                    alignItems: 'flex-start',
                   }}
                   key={index}
                 >
                   {data.available ? (
-                    <img src="/tick.svg" style={{ width: "20px" }} />
+                    <img src="/tick.svg" style={{ width: '20px' }} />
                   ) : (
-                    <img src="/cross.svg" style={{ width: "20px" }} />
+                    <img src="/cross.svg" style={{ width: '20px' }} />
                   )}
-                  {"   "}
+                  {'   '}
                   <span>{data.title}</span>
                 </li>
               );
             })}
         </ul>
-        <button type="button" className={`btn btn-lg btn-block ${btnClass}`}>
+        {/* <button type="button" className={`btn btn-lg btn-block ${btnClass}`}>
           {btnTitle}
-        </button>
+        </button> */}
+        <strong>To get a free consulting, Call.</strong>
       </div>
     </div>
   );
