@@ -19,7 +19,7 @@ const PricingBox = () => {
     { available: false, title: "Dedicated account manager" },
   ];
   const featureBox2 = [
-    { available: true, title: "Unlimited affiliates" },
+    { available: true, title: "Unlimited affiliates" }, 
     { available: true, title: "4 program" },
     { available: true, title: "3 affiliate acquisition methods" },
     { available: true, title: "6 payout methods" },
