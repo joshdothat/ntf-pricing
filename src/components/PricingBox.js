@@ -51,7 +51,7 @@ const PricingBox = () => {
     { available: true, title: 'Dedicated account manager' },
   ];
   return (
-    <div className="card-deck mb-3 text-center">
+    <div className="card-deck mb-3 mt-5 text-center">
       <Box
         revenue="25"
         price="0"
