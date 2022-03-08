@@ -59,6 +59,7 @@ const PricingBox = () => {
         // btnClass="btn-outline-primary"
         // btnTitle="Sign up for free"
         feature={featureBox1}
+        keyword="Contract"
       />
       <Box
         revenue="15"
@@ -67,6 +68,7 @@ const PricingBox = () => {
         // btnClass="btn-primary"
         // btnTitle="Get started"
         feature={featureBox2}
+        keyword="Mint"
       />
       <Box
         revenue="5"
@@ -75,6 +77,7 @@ const PricingBox = () => {
         // btnClass="btn-primary"
         // btnTitle="Contact us"
         feature={featureBox3}
+        keyword="Dev"
       />
     </div>
   );

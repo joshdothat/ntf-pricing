@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Box = (props) => {
-  const { title, btnClass, btnTitle, price, feature, revenue } = props;
+  const { title, btnClass, btnTitle, price, feature, revenue, keyword } = props;
   return (
     <div className="card mb-4 shadow-sm">
       <div className="card-header">
@@ -39,8 +39,8 @@ const Box = (props) => {
         {/* <button type="button" className={`btn btn-lg btn-block ${btnClass}`}>
           {btnTitle}
         </button> */}
-        <strong>text (keyword yet to be decided)</strong>
-        <h4 className="mt-2">123456789</h4>
+        <strong>Text "{keyword}"</strong>
+        <h4 className="mt-2">9146855775</h4>
       </div>
     </div>
   );
