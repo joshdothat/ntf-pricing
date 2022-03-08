@@ -39,7 +39,8 @@ const Box = (props) => {
         {/* <button type="button" className={`btn btn-lg btn-block ${btnClass}`}>
           {btnTitle}
         </button> */}
-        <strong>To get a free consulting, Call.</strong>
+        <strong>text (keyword yet to be decided)</strong>
+        <h4 className="mt-2">123456789</h4>
       </div>
     </div>
   );
